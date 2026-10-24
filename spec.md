@@ -39,7 +39,7 @@ A single static landing for **AutoRepairServiceLand**: portfolio-first proof (wo
 
 Follow implement `landing-implement/references/surface/grid.md` for rail/gutter/gaps/breakpoints. Multi-col sections declare `layout:`:
 
-1. Hero (`hero_offer` + CTA) — full-bleed focal media; offer column `stack`
+1. Hero (`hero_offer` + CTA) — full-bleed focal media; `layout: split-equal` (offer column `stack` in the first track; second track left empty so the focal car stays visible at lg+)
 2. Work gallery — carousel presentation; static stills row `media-row-2` where used
 3. Value / benefits — pain↔outcome — `split-equal`
 4. Services (`service_item`) — `thirds`
@@ -66,8 +66,8 @@ Follow implement `landing-implement/references/surface/grid.md` for rail/gutter/
 ### Visual system
 
 - **Palette:** charcoal / steel / off-white (~90%); accent red (≤10%); soft alternate charcoal grounds. Section grounds default; interactive stroke/fill; two-tier accent. Cyan from diagnostic-tablet ref local to that image only.
-- **Type:** Barlow Condensed (headings) + IBM Plex Sans (body).
-- **Focal:** hero full-bleed knolling SUV (ref1); logo mark ref4; gallery refs 1–3, 5–6 with reuse (~6–8 slots).
+- **Type:** Fira Sans Extra Condensed (headings) + IBM Plex Sans (body). Replaces Barlow Condensed, which has no Cyrillic subset.
+- **Focal:** hero full-bleed knolling SUV (ref1); logo mark ref4; gallery refs 1–3, 5–6 with reuse (~6–8 slots). Ref1 is only 650×1024, so below 1024px it covers the full hero; at lg+ it is a full-height plane bleeding off the right edge over the full-bleed mood plate (no upscaling). Swap to edge-to-edge cover once a ≥1920px-wide ref1 exists.
 
 ### Motion
 

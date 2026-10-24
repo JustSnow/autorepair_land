@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AutoRepairServiceLand — автосервис, диагностика и ремонт</title>
+    <meta
+      name="description"
+      content="Полный цикл: диагностика, ремонт и ТО с прозрачной сметой и записью онлайн. Посмотрите работы и оставьте заявку — AutoRepairServiceLand."
+    />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#121416" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AutoRepairServiceLand — автосервис, диагностика и ремонт" />
+    <meta
+      property="og:description"
+      content="Полный цикл: диагностика, ремонт и ТО с прозрачной сметой и записью онлайн."
+    />
+    <meta property="og:site_name" content="AutoRepairServiceLand" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AutoRepairServiceLand — автосервис, диагностика и ремонт" />
+    <meta
+      name="twitter:description"
+      content="Полный цикл: диагностика, ремонт и ТО с прозрачной сметой и записью онлайн."
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "_:organization",
+            "name": "AutoRepairServiceLand"
+          },
+          {
+            "@type": "WebPage",
+            "name": "AutoRepairServiceLand — автосервис, диагностика и ремонт",
+            "inLanguage": "ru",
+            "about": { "@id": "_:organization" },
+            "publisher": { "@id": "_:organization" }
+          }
+        ]
+      }
+    </script>
+
+    <link rel="icon" href="./src/assets/ref4-emblem.webp" type="image/webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+    <header class="site-header">
+      <div class="rail site-header__row">
+        <a class="brand" href="#top" aria-label="AutoRepairServiceLand — в начало страницы">
+          <img class="brand__mark" src="./src/assets/ref4-emblem.webp" alt="" width="44" height="44" />
+          <span class="brand__name" translate="no">AutoRepairServiceLand</span>
+        </a>
+        <nav class="site-nav" aria-label="Разделы страницы">
+          <ul class="site-nav__list">
+            <li><a href="#uslugi">Услуги</a></li>
+            <li><a href="#raboty">Работы</a></li>
+            <li><a href="#kak">Как работаем</a></li>
+            <li><a href="#ceny">Цены</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <a class="site-header__phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+        <a class="btn btn--primary sticky-cta" href="#zapis" data-open-booking>Записаться</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__atmosphere" data-pointer-atmosphere aria-hidden="true">
+          <div class="hero__layer hero__layer--plate" data-depth="0.15">
+            <img src="./src/assets/mood-garage-plate.webp" alt="" width="320" height="507" />
+          </div>
+          <div class="hero__layer hero__layer--glow" data-depth="0.5"></div>
+          <div class="hero__layer hero__layer--car" data-depth="0.35">
+            <img
+              src="./src/assets/ref1-knolling-suv.webp"
+              alt=""
+              width="650"
+              height="1024"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+
+        <div class="rail hero__rail">
+          <div class="rail-grid rail-grid--split-equal">
+            <div class="hero__content">
+              <h1 class="hero__title" id="hero-title">Честный автосервис с прозрачной сметой</h1>
+              <p class="hero__lead">
+                Диагностика, ремонт и ТО легковых автомобилей. Смету и срок согласуем
+                <strong>до начала работ</strong> — без доплат по факту и лишних услуг.
+              </p>
+              <div class="hero__actions">
+                <a class="btn btn--primary btn--large" href="#zapis" data-open-booking>Записаться</a>
+                <a class="btn btn--quiet" href="tel:+70000000000">+7 (000) 000-00-00</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="raboty" aria-labelledby="raboty-title">
+        <div class="rail">
+          <div class="section__head section__head--with-controls">
+            <div>
+              <h2 class="section__title" id="raboty-title">Наши работы</h2>
+              <p class="section__lead">
+                Сначала посмотрите, как мы работаем, — потом решайте, доверять ли нам автомобиль.
+              </p>
+            </div>
+            <div class="carousel__controls" data-carousel-controls="gallery" hidden>
+              <button class="carousel__btn" type="button" data-carousel-prev aria-label="Предыдущие работы">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+              </button>
+              <button class="carousel__btn" type="button" data-carousel-next aria-label="Следующие работы">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel carousel--gallery" data-carousel="gallery" role="region" aria-roledescription="карусель" aria-label="Галерея работ">
+            <ul class="carousel__track" tabindex="0">
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media">
+                    <img src="./src/assets/ref2-diagnostic-tablet.webp" alt="Диагностический планшет подключён к автомобилю, на экране графики параметров двигателя" width="746" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Компьютерная диагностика</h3>
+                    <p>Считываем ошибки и живые параметры двигателя, показываем отчёт до начала ремонта.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media">
+                    <img src="./src/assets/ref3-engine-hands.webp" alt="Мастер в перчатках устанавливает узел на двигатель под капотом" width="643" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Замена навесного оборудования</h3>
+                    <p>Снятие, установка и проверка узла на прогретом двигателе.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media">
+                    <img src="./src/assets/ref5-red-car-garage.webp" alt="Красное спорткупе в мастерской, рядом на полу инструменты и колесо" width="646" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Восстановление после простоя</h3>
+                    <p>Подвеска, тормоза и регулировка углов установки колёс для спорткупе.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media">
+                    <img src="./src/assets/ref6-injectors.webp" alt="Снятые топливные форсунки на полу мастерской, за ними красный спорткар" width="643" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Чистка и проверка форсунок</h3>
+                    <p>Замер производительности до и после — результат видно в цифрах.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media">
+                    <img src="./src/assets/ref1-knolling-suv.webp" alt="Тёмный кроссовер в студии, вокруг разложены снятые детали и узлы" width="650" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Комплексное ТО кроссовера</h3>
+                    <p>Работы по регламенту производителя. Всё, что сняли и заменили, показываем.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media work__media--alt-crop">
+                    <img src="./src/assets/ref3-engine-hands.webp" alt="Крупный план двигателя: патрубки, шланги и корпус узла после установки" width="643" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Поиск и устранение утечек</h3>
+                    <p>Проверяем патрубки и уплотнения, меняем только то, что действительно течёт.</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="work">
+                  <div class="work__media work__media--alt-crop">
+                    <img src="./src/assets/ref5-red-car-garage.webp" alt="Колесо красного автомобиля и инструменты на полу мастерской" width="646" height="1024" loading="lazy" decoding="async" />
+                  </div>
+                  <figcaption>
+                    <h3 class="work__title">Ходовая перед сезоном</h3>
+                    <p>Диагностика подвески и тормозов, замена изношенных деталей по смете.</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" aria-labelledby="value-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="value-title">Без подвохов, которых вы опасаетесь</h2>
+            <p class="section__lead">Мы знаем, почему к новому автосервису относятся с недоверием. Вот что делаем иначе.</p>
+          </div>
+          <ul class="rail-grid rail-grid--split-equal mirror">
+            <li class="mirror__item mirror__item--pain">
+              <p class="mirror__tag">Обычно</p>
+              <h3 class="mirror__title">Цену называют после ремонта</h3>
+              <p>Итог в кассе оказывается в полтора раза больше, чем обещали по телефону.</p>
+            </li>
+            <li class="mirror__item mirror__item--outcome">
+              <p class="mirror__tag">У нас</p>
+              <h3 class="mirror__title">Смета до начала работ</h3>
+              <p>Согласуем каждую позицию заранее. Без вашего «да» сумма не меняется.</p>
+            </li>
+            <li class="mirror__item mirror__item--pain">
+              <p class="mirror__tag">Обычно</p>
+              <h3 class="mirror__title">Навязывают лишние работы</h3>
+              <p>«Заодно поменяем» — и вы платите за то, что ещё могло ездить.</p>
+            </li>
+            <li class="mirror__item mirror__item--outcome">
+              <p class="mirror__tag">У нас</p>
+              <h3 class="mirror__title">Показываем неисправность</h3>
+              <p>Фото, видео или снятая деталь. Что менять сейчас, а что подождёт, решаете вы.</p>
+            </li>
+            <li class="mirror__item mirror__item--pain">
+              <p class="mirror__tag">Обычно</p>
+              <h3 class="mirror__title">Сроки «как получится»</h3>
+              <p>Обещали к вечеру, а машина стоит третий день, и никто не звонит.</p>
+            </li>
+            <li class="mirror__item mirror__item--outcome">
+              <p class="mirror__tag">У нас</p>
+              <h3 class="mirror__title">Срок называем при приёмке</h3>
+              <p>Если что-то меняется, предупреждаем заранее и объясняем почему.</p>
+            </li>
+            <li class="mirror__item mirror__item--pain">
+              <p class="mirror__tag">Обычно</p>
+              <h3 class="mirror__title">Непонятно, что сделали</h3>
+              <p>На руках чек с непонятными позициями и никаких объяснений.</p>
+            </li>
+            <li class="mirror__item mirror__item--outcome">
+              <p class="mirror__tag">У нас</p>
+              <h3 class="mirror__title">Отчёт по каждой работе</h3>
+              <p>Перечень работ и деталей, заменённые запчасти и рекомендации на будущее.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="uslugi" aria-labelledby="uslugi-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="uslugi-title">Услуги</h2>
+            <p class="section__lead">Полный цикл для легковых автомобилей: от диагностики до выдачи с отчётом.</p>
+          </div>
+          <ul class="rail-grid rail-grid--thirds services">
+            <li class="service">
+              <h3 class="service__name">Компьютерная диагностика</h3>
+              <p>Ошибки, живые параметры, проверка датчиков. Отчёт — до ремонта.</p>
+              <p class="service__price">от 1 500 ₽</p>
+            </li>
+            <li class="service">
+              <h3 class="service__name">Плановое ТО</h3>
+              <p>Масло, фильтры, жидкости и осмотр по регламенту производителя.</p>
+              <p class="service__price">от 3 900 ₽</p>
+            </li>
+            <li class="service">
+              <h3 class="service__name">Ремонт двигателя</h3>
+              <p>От замены навесного оборудования до капитального ремонта.</p>
+              <p class="service__price">от 8 000 ₽</p>
+            </li>
+            <li class="service">
+              <h3 class="service__name">Подвеска и рулевое</h3>
+              <p>Стуки, люфты, увод в сторону. Замена и регулировка.</p>
+              <p class="service__price">от 2 500 ₽</p>
+            </li>
+            <li class="service">
+              <h3 class="service__name">Тормозная система</h3>
+              <p>Колодки, диски, суппорты, замена тормозной жидкости.</p>
+              <p class="service__price">от 1 800 ₽</p>
+            </li>
+            <li class="service">
+              <h3 class="service__name">Топливная система</h3>
+              <p>Чистка и проверка форсунок, замена топливного насоса и фильтров.</p>
+              <p class="service__price">от 3 200 ₽</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="kak" aria-labelledby="kak-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="kak-title">Как мы работаем</h2>
+            <p class="section__lead">Три шага — и на каждом вы знаете, что происходит с машиной.</p>
+          </div>
+          <ol class="rail-grid rail-grid--thirds steps" data-stagger>
+            <li class="step" style="--i: 0">
+              <span class="step__num" aria-hidden="true">01</span>
+              <h3 class="step__title">Запись</h3>
+              <p>Оставьте заявку или позвоните. Перезвоним, чтобы подтвердить удобное время.</p>
+            </li>
+            <li class="step" style="--i: 1">
+              <span class="step__num" aria-hidden="true">02</span>
+              <h3 class="step__title">Диагностика и смета</h3>
+              <p>Осматриваем автомобиль, составляем смету и называем срок. Без согласования не начинаем.</p>
+            </li>
+            <li class="step" style="--i: 2">
+              <span class="step__num" aria-hidden="true">03</span>
+              <h3 class="step__title">Ремонт и выдача</h3>
+              <p>Выполняем работы, показываем заменённые детали и отдаём отчёт.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="team-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="team-title">Кто будет заниматься вашей машиной</h2>
+          </div>
+          <ul class="rail-grid rail-grid--thirds team">
+            <li class="member">
+              <div class="member__photo" role="img" aria-label="Фото скоро появится">АМ</div>
+              <h3 class="member__name">Алексей Морозов</h3>
+              <p class="member__role">Мастер-приёмщик</p>
+            </li>
+            <li class="member">
+              <div class="member__photo" role="img" aria-label="Фото скоро появится">ДК</div>
+              <h3 class="member__name">Дмитрий Ковалёв</h3>
+              <p class="member__role">Моторист</p>
+            </li>
+            <li class="member">
+              <div class="member__photo" role="img" aria-label="Фото скоро появится">ИС</div>
+              <h3 class="member__name">Игорь Сафин</h3>
+              <p class="member__role">Диагност-электрик</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" aria-labelledby="reviews-title">
+        <div class="rail">
+          <div class="section__head section__head--with-controls">
+            <div>
+              <h2 class="section__title" id="reviews-title">Отзывы клиентов</h2>
+              <p class="section__lead">Примеры отзывов для демо-версии сайта — заменим реальными перед запуском.</p>
+            </div>
+            <div class="carousel__controls" data-carousel-controls="reviews" hidden>
+              <button class="carousel__btn" type="button" data-carousel-prev aria-label="Предыдущий отзыв">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+              </button>
+              <button class="carousel__btn" type="button" data-carousel-next aria-label="Следующий отзыв">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg>
+              </button>
+            </div>
+          </div>
+          <div class="carousel carousel--reviews" data-carousel="reviews" role="region" aria-roledescription="карусель" aria-label="Отзывы клиентов">
+            <ul class="carousel__track" tabindex="0">
+              <li class="carousel__slide">
+                <figure class="review">
+                  <blockquote>
+                    <p>Сначала прислали фото изношенных колодок и смету, только потом начали. Итог совпал с суммой до рубля.</p>
+                  </blockquote>
+                  <figcaption class="review__author">
+                    <span class="review__avatar" aria-hidden="true">МЛ</span>
+                    <span><strong>Марина Л.</strong><br />Москва</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="review">
+                  <blockquote>
+                    <p>В другом сервисе сказали менять весь насос. Здесь нашли треснувший патрубок и поменяли только его.</p>
+                  </blockquote>
+                  <figcaption class="review__author">
+                    <span class="review__avatar" aria-hidden="true">СВ</span>
+                    <span><strong>Сергей В.</strong><br />Химки</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="review">
+                  <blockquote>
+                    <p>Назвали срок — два дня, отдали через два дня. Отчёт с перечнем работ сохранил для следующего ТО.</p>
+                  </blockquote>
+                  <figcaption class="review__author">
+                    <span class="review__avatar" aria-hidden="true">АК</span>
+                    <span><strong>Андрей К.</strong><br />Москва</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="carousel__slide">
+                <figure class="review">
+                  <blockquote>
+                    <p>Записалась онлайн на диагностику, перезвонили через десять минут. Всё объяснили без снисходительности.</p>
+                  </blockquote>
+                  <figcaption class="review__author">
+                    <span class="review__avatar" aria-hidden="true">ЕП</span>
+                    <span><strong>Елена П.</strong><br />Мытищи</span>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ceny" aria-labelledby="ceny-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="ceny-title">Цены на частые работы</h2>
+            <p class="section__lead">
+              Стоимость работ без учёта деталей. Точную сумму фиксируем в смете после диагностики.
+            </p>
+          </div>
+          <ul class="prices">
+            <li class="prices__row"><span>Замена масла и масляного фильтра</span><span class="prices__value">от 900 ₽</span></li>
+            <li class="prices__row"><span>Замена тормозных колодок, одна ось</span><span class="prices__value">от 1 200 ₽</span></li>
+            <li class="prices__row"><span>Диагностика ходовой части</span><span class="prices__value">от 800 ₽</span></li>
+            <li class="prices__row"><span>Развал-схождение</span><span class="prices__value">от 2 000 ₽</span></li>
+            <li class="prices__row"><span>Чистка форсунок на стенде</span><span class="prices__value">от 3 200 ₽</span></li>
+            <li class="prices__row"><span>Замена ремня ГРМ</span><span class="prices__value">от 6 500 ₽</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+        <div class="rail">
+          <div class="section__head">
+            <h2 class="section__title" id="faq-title">Частые вопросы</h2>
+          </div>
+          <div class="faq">
+            <details class="faq__item">
+              <summary>Сколько стоит диагностика и входит ли она в ремонт?</summary>
+              <p>Компьютерная диагностика — от&nbsp;1&nbsp;500&nbsp;₽. По её итогам вы получаете отчёт и смету и сами решаете, ремонтировать ли автомобиль у нас.</p>
+            </details>
+            <details class="faq__item">
+              <summary>Что будет, если во время ремонта найдётся ещё неисправность?</summary>
+              <p>Мы остановимся, покажем находку и согласуем новую позицию в смете. Без вашего подтверждения дополнительные работы не выполняем.</p>
+            </details>
+            <details class="faq__item">
+              <summary>Можно привезти свои запчасти?</summary>
+              <p>Да. Перед установкой проверим комплектность и совместимость. Если деталь не подходит, скажем об этом до начала работ.</p>
+            </details>
+            <details class="faq__item">
+              <summary>Сколько времени занимает ремонт?</summary>
+              <p>Зависит от работ и наличия деталей. Срок называем при приёмке и фиксируем вместе со сметой.</p>
+            </details>
+            <details class="faq__item">
+              <summary>Как записаться?</summary>
+              <p>Нажмите «Записаться» и оставьте имя и телефон или позвоните по номеру +7 (000) 000-00-00. Мы перезвоним и подберём время.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="zapis" aria-labelledby="zapis-title">
+        <div class="rail final-cta__inner">
+          <h2 class="section__title" id="zapis-title">Запишитесь на диагностику</h2>
+          <p class="section__lead">
+            Оставьте имя и телефон — перезвоним, подберём время и заранее назовём ориентир по стоимости.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--large" href="#zapis" data-open-booking>Записаться</a>
+            <a class="btn btn--secondary" href="tel:+70000000000">+7 (000) 000-00-00</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="rail site-footer__row">
+        <p>© 2026 <span translate="no">AutoRepairServiceLand</span></p>
+        <p>Форма записи на этом сайте демонстрационная: введённые данные никуда не отправляются.</p>
+      </div>
+    </footer>
+
+    <dialog class="booking" id="booking" aria-labelledby="booking-title">
+      <form class="booking__form" method="dialog" data-booking-form>
+        <div class="booking__head">
+          <h2 class="booking__title" id="booking-title">Запись в автосервис</h2>
+          <button class="booking__close" type="button" data-booking-close aria-label="Закрыть">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+          </button>
+        </div>
+        <div class="field">
+          <label for="booking-name">Имя</label>
+          <input id="booking-name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label for="booking-phone">Телефон</label>
+          <input id="booking-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (900) 000-00-00" pattern="[0-9\s\(\)\+\-]{10,}" title="Номер телефона, минимум 10 цифр" required />
+        </div>
+        <div class="field">
+          <label for="booking-car">Автомобиль <span class="field__optional">(необязательно)</span></label>
+          <input id="booking-car" name="car" type="text" placeholder="Например, Kia Rio 2018" />
+        </div>
+        <div class="field">
+          <label for="booking-service">Услуга <span class="field__optional">(необязательно)</span></label>
+          <select id="booking-service" name="service">
+            <option value="">Не выбрано</option>
+            <option>Компьютерная диагностика</option>
+            <option>Плановое ТО</option>
+            <option>Ремонт двигателя</option>
+            <option>Подвеска и рулевое</option>
+            <option>Тормозная система</option>
+            <option>Топливная система</option>
+          </select>
+        </div>
+        <button class="btn btn--primary btn--large btn--block" type="submit">Отправить заявку</button>
+        <p class="booking__note">Демо-форма: данные не отправляются.</p>
+      </form>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+  </body>
+</html>

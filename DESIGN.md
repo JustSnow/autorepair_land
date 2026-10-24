@@ -8,7 +8,7 @@ Base ~90%: charcoal, steel grey, off-white text. Accent ≤10%: **red** (from ga
 
 ## Type pair
 
-- Headings: **Barlow Condensed**
+- Headings: **Fira Sans Extra Condensed** (Barlow Condensed has no Cyrillic)
 - Body: **IBM Plex Sans**
 
 ## Focal visual
